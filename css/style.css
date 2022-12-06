@@ -1,0 +1,286 @@
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,400&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background-color: rgba(34, 124, 16, 0.8);
+    }
+    
+    .logo {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo img {
+        width: 50%;
+        margin: 5px;
+    }
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+    }
+    
+    .nav-list {
+        width: 65%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-list li {
+        list-style: none;
+        padding: 25px 25px;
+        border: 0px solid white;
+        border-radius: 20px 50px 50px;
+    }
+    
+    .nav-list li:hover {
+        background-color: rgba(5, 60, 68, 0.4);
+    }
+    
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+        font-size: 19px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .nav-list li a:hover {
+        color: rgb(12, 12, 12);
+    }
+    
+    .rightNav {
+        width: 35%;
+        text-align: right;
+        padding: 0px 20px;
+    }
+    
+    #subscribe {
+        padding: 5px;
+        font-size: 15px;
+        border: 2px solid white;
+        border-top-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        box-shadow: rgb(4, 63, 90) 3px 4px 7px;
+    }
+    
+    .background {
+        background: rgba(34, 124, 16, 0.7) url('../img/bg2.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    
+    .firsthalf {
+        height: 90vh;
+    }
+    
+    .box-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 70%;
+        margin: auto;
+        height: 70%;
+    }
+    
+    .firsthalf {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    
+    .secondhalf {
+        width: 50%;
+    }
+    
+    .secondhalf img {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+    
+    .text-big {
+        font-size: 40px;
+        font-family: 'Bree Serif', serif;
+        color: #180620ec;
+    }
+    
+    .text-small {
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        color: black;
+    }
+    
+    .btn {
+        padding: 8px 20px;
+        margin: 10px 5px;
+        font-size: 15px;
+        border: 2px solid rgb(13, 88, 26);
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        cursor: pointer;
+        box-shadow: rgb(36, 88, 25) 3px 4px 7px;
+        background-image: linear-gradient( 135deg, #0b7035 10%, #3CD500 100%);
+        color: rgb(8, 7, 7);
+    }
+    
+    .btn:hover {
+        font-size: 17px;
+        background-image: linear-gradient( 135deg, #0b9248 10%, #3CD500 100%);
+    }
+    
+    .mainbtn {
+        background-color: rgba(34, 124, 16, 0.3);
+        padding: 8px 20px;
+        margin: 10px 5px;
+        font-size: 15px;
+        border: 2px solid rgb(13, 88, 26);
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        cursor: pointer;
+        box-shadow: rgb(36, 88, 25) 3px 4px 7px;
+        color: rgb(8, 7, 7);
+    }
+    
+    .btn-sm {
+        padding: 5px 10px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    
+    .btn-dark {
+        color: rgb(19, 18, 18);
+        border: 2px solid grey;
+    }
+    
+    .jbtn {
+        padding: 6px 20px;
+        list-style: none;
+        border: 4px solid red;
+        color: rgb(12, 12, 14);
+        margin: 17px;
+        font-size: 1rem;
+        cursor: pointer;
+        box-shadow: rgb(3, 66, 13) 3px 4px 7px;
+        
+    }
+    
+    .jbtn a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .joinus {
+        box-shadow: 16px 14px 20px;
+        border: 0px solid rgb(72, 4, 136);
+        border-radius: 15px;
+        border-top-left-radius: 75px;
+        border-bottom-right-radius: 100px;
+        background-image: linear-gradient( 135deg, #7c9c22b6 10%, #4194209f 100%);
+        padding: 15px;
+        margin: 15px;
+        background: rgba(39, 134, 22, 0.9) url('../img/bg6.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    
+    .section {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto;
+        max-width: 90%;
+        font-family: 'Bree Serif', serif;
+        padding: 5px;
+    }
+    
+    .section-left {
+        flex-direction: row-reverse;
+    }
+    
+    .paras {
+        padding: 0px 60px;
+    }
+    
+    .coursehead {
+        padding: 15px 0;
+        font-size: 30PX;
+        font-family: 'Bree Serif', serif;
+        color: rgb(43, 28, 110);
+    }
+    
+    .coursedetail {
+        font-size: 18px;
+        color: rgb(15, 15, 15);
+    }
+    
+    .thumbnail img {
+        width: 200px;
+        margin-top: 15px;
+    }
+    
+    .contact {
+        height: 600px;
+        background: rgba(39, 134, 22, 0.5) url('../img/bg4.png');
+        margin-bottom: 40px;
+    }
+    
+    .text-center {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 35px;
+    }
+    
+    .form {
+        max-width: 60%;
+        margin: 25px auto;
+    }
+    
+    .form-input {
+        width: 96%;
+        font-size: 18px;
+        border: 2px solid gray;
+        border-radius: 5px;
+        margin: 15px 0px;
+        padding: 5px 10px;
+    }
+    
+    footer {
+        background: black;
+        color: white;
+        padding: 9px 20px;
+        text-align: center;
+        margin-top: -40px;
+    }
+    
+    .burger {
+        display: none;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+    }
+    
+    .line {
+        width: 33px;
+        background-color: white;
+        height: 4px;
+        margin: 5px 3px;
+    }
+    
